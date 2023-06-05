@@ -120,7 +120,7 @@ mappings = {
         "config": {
             # "device_class": "temperature",
             "name": "Command",
-            "value_template": "{{ value|str }}",
+            "value_template": "{{ value }}",
             # "state_class": "measurement"
         }
     },
